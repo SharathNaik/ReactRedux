@@ -9,31 +9,6 @@ import { bindActionCreators } from "redux";
 import CourseList from "./CourseList";
 
 class CoursePage extends React.Component {
-  /*
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      course: {
-        title: ""
-      }
-    };
-
-    //function bound only once
-    //this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange = event => {
-    const course = { ...this.state.course, title: event.target.value };
-    this.setState({ course: course });
-  };
-
-  handleSubmit = event => {
-    event.preventDefault();
-    //this.props.dispatch(courseActions.createCourse(this.state.course));
-    this.props.actions.createCourse(this.state.course);
-  };
-  */
 
   componentDidMount() {
 
