@@ -7,6 +7,9 @@ import PageNotFound from "./PageNotFound";
 import CoursePage from "./courses/CoursesPage";
 import ManageCoursePage from "./courses/ManageCoursePage";
 
+import {ToastContainer} from "react-toastify";// React Notifier
+import "react-toastify/dist/ReactToastify.css";
+
 function App() {
   return (
     <div className="container-fluid">
@@ -19,6 +22,7 @@ function App() {
         <Route path="/course" component={ManageCoursePage} />
         <Route component={PageNotFound} />
       </Switch>
+      <ToastContainer autoClose={3000} hideProgressBar />
     </div>
   );
 }
