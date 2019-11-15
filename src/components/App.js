@@ -5,9 +5,8 @@ import AboutPage from "./about/AboutPage";
 import Header from "./common/Header";
 import PageNotFound from "./PageNotFound";
 import CoursePage from "./courses/CoursesPage";
-import ManageCoursePage from "./courses/ManageCoursePage";
-
-import {ToastContainer} from "react-toastify";// React Notifier
+import ManageCoursePage from "./courses/ManageCoursePage"; // eslint-disable-line import/no-named-as-default
+import { ToastContainer } from "react-toastify";// React Notifier
 import "react-toastify/dist/ReactToastify.css";
 
 function App() {
